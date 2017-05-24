@@ -1,25 +1,9 @@
 ---
 layout: default
 ---
-
-<main style="padding: 1em;">
-  <h1>Hello World</h1>
-  <p>This is a website that has multiple posts in a blog type format.</p>
-  <p>Edit or add posts in the _posts/ directory</p>
-  <p>Add a new page by creating a directory with the name i.e to make the url http://localhost:3000/about/ just create a directory called about and put a new index.html file in there.</p>
+<main class="lunaroja">
+  <h1><img src="http://static.tumblr.com/hdgimnq/E3Ilrmj77/lunaroja.png" alt="lunaroja"></h1>
+  <p>is a pixel-sized interactive design firm bent on bringing <strong>your big ideas</strong> to life.</p>
+  <p>We are passionate about working with <strong>minority</strong> businesses, <strong>nonprofits</strong> and organizations in the <strong>arts</strong>, <strong>culture</strong> and <strong>media</strong>.</p>
+  <p>Who we are: Nerds with cool shoes.<br> Things we like: You, <strong>HTML5</strong>, <strong>WordPress</strong>, <strong>responsive design</strong> and <strong>beautiful content</strong>. Things we don't: glass ceilings, cut corners, sloppy code and smudges on our glasses.  <br><br>What <em>is</em> your big idea? <a href="mailto:hola@lunaroja.org" >Write</a> us.</p>
 </main>
-<footer style="padding: 1em;">
-{% if site.posts %}
-  <h2>A list of all the posts</h2>
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}" title="{{post.title}}">
-          {{ post.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endif %}
-<small>Copyright 2015</small>
-</footer>
