@@ -1,7 +1,5 @@
-name: "lunaroja » Interactive Design & Development Studio"
-description: ""
-author: "mrmrs"
+name: "lunaroja"
+description: "Interactive Design & Development Studio"
+author: "Abraham Velazquez"
 url: "http://lunaroja.org"
-future: true
 permalink: pretty
-highlighter: pygments

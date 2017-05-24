@@ -1,0 +1,21 @@
+.lunaroja h1 {
+  text-align: left;
+  min-width: 790px;
+  max-width: 1060px;
+  margin: 0 auto;
+  display: block;
+}
+.lunaroja p {
+  text-align: left;
+  color: #999;
+  padding-bottom: 20px;
+  font-size: 36px;
+  line-height: 42px;
+  width: 780px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 30px auto 120px;
+}
+.lunaroja h2 strong {
+  color: #B82d2d;
+}
