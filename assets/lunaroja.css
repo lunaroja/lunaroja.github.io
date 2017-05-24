@@ -1,21 +1,33 @@
+body {
+  margin: 0;
+}
+.lunaroja {
+  font-family: Helvetica, Arial, Serif;
+  color: #999;
+}
 .lunaroja h1 {
   text-align: left;
-  min-width: 790px;
-  max-width: 1060px;
-  margin: 0 auto;
+  max-width: 1090px;
+  margin: 1rem auto;
   display: block;
 }
 .lunaroja p {
   text-align: left;
-  color: #999;
-  padding-bottom: 20px;
   font-size: 36px;
-  line-height: 42px;
-  width: 780px;
+  line-height: 1.166;
+  max-width: 780px;
   font-weight: bold;
-  padding: 10px;
-  margin: 30px auto 120px;
+  padding: 0 12px;
+  margin: 2rem auto;
 }
-.lunaroja h2 strong {
+@media (max-width: 600px) {
+  .lunaroja p {
+    font-size: 21px;
+  }
+}
+.lunaroja p strong {
+  color: #B82d2d;
+}
+.lunaroja p a {
   color: #B82d2d;
 }
