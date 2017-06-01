@@ -1,34 +1,26 @@
 body {
   margin: 0;
-}
-.lunaroja {
-  font-family: Helvetica, Arial, Serif;
   color: #999;
+  font-family: Helvetica, Arial, Serif;
+  line-height: 1.166;
 }
-.lunaroja h1 {
-  text-align: left;
+a, strong {
+  color: #B82d2d;
+}
+h1 {
   max-width: 1090px;
   margin: 1rem auto;
   padding: 0 12px;
-  display: block;
 }
-.lunaroja p {
-  text-align: left;
-  font-size: 36px;
-  line-height: 1.166;
+p {
   max-width: 780px;
+  font-size: 21px;
   font-weight: bold;
-  padding: 0 12px;
   margin: 2rem auto;
+  padding: 0 12px;
 }
-@media (max-width: 600px) {
-  .lunaroja p {
-    font-size: 21px;
+@media (min-width: 600px) {
+  p {
+    font-size: 36px;
   }
-}
-.lunaroja p strong {
-  color: #B82d2d;
-}
-.lunaroja p a {
-  color: #B82d2d;
 }
